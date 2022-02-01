@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * Zach Daly
+ * Assignment 2
+ * Controls animal and food movement
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+ * Zach Daly
+ * Assignment 2
+ * Controls Collision Detection
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
