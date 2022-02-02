@@ -7,6 +7,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// attach to food projectile
 public class DetectCollisions : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
