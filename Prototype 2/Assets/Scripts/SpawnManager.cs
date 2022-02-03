@@ -31,12 +31,6 @@ public class SpawnManager : MonoBehaviour
         StartCoroutine(SpawnRandFabCoroutine());
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     IEnumerator SpawnRandFabCoroutine()
     {
         // add a three second delay before first animal
