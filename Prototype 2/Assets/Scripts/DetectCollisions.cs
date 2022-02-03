@@ -1,6 +1,6 @@
 ﻿/*
  * Zach Daly
- * Assignment 2
+ * Assignment 3
  * Controls Collision Detection
  */
 using System.Collections;

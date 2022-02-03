@@ -987,8 +987,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a195c02802229242b5332be486963bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
-  maxHealth: 4
+  health: 5
+  maxHealth: 5
   hearts:
   - {fileID: 1780653770}
   - {fileID: 2068293409}
