@@ -18,7 +18,7 @@ public class DestroyOutOfBounds : MonoBehaviour
         // if animals go out of bounds
         if (transform.position.z < bottomBound)
         {
-            Debug.Log("Game Over!");
+            GameObject.FindGameObjectWithTag("HealthSystem").GetComponent<HealthSystem>().TakeDamage();
             Destroy(gameObject);
         }
     }

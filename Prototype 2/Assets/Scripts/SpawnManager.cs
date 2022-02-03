@@ -13,8 +13,13 @@ public class SpawnManager : MonoBehaviour
     private float rightBound = 14;
     private float spawnPosZ = 20;
 
+    public HealthSystem healthSystem;
+
     void Start()
     {
+        // get a ref to health system script
+        healthSystem = GameObject.FindGameObjectWithTag("HealthSystem").GetComponent<HealthSystem>();
+
         //InvokeRepeating("SpawnRandPrefab",2, 1.5f);
 
         // COROUTINE
@@ -36,7 +41,7 @@ public class SpawnManager : MonoBehaviour
         // add a three second delay before first animal
         yield return new WaitForSeconds(3f);
 
-        while (true)
+        while (!healthSystem.gameOver)
         {
             SpawnRandPrefab();
 

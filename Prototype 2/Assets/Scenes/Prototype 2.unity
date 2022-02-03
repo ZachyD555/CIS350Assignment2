@@ -649,6 +649,7 @@ MonoBehaviour:
   - {fileID: 3801025798305816084, guid: 1518c191a8e2231409b987a43a2f7356, type: 3}
   - {fileID: 4532316215333058270, guid: da21e106a403ddc4db185e0ac44f4ef0, type: 3}
   - {fileID: 5545258286122813102, guid: 6a7ec4da32ee6ec49881760f47668ded, type: 3}
+  healthSystem: {fileID: 0}
 --- !u!4 &483984295
 Transform:
   m_ObjectHideFlags: 0
@@ -986,8 +987,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a195c02802229242b5332be486963bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 0
+  health: 3
+  maxHealth: 4
   hearts:
   - {fileID: 1780653770}
   - {fileID: 2068293409}
