@@ -19,8 +19,22 @@ public class SpawnManagerX : MonoBehaviour
         InvokeRepeating("SpawnRandomBall", startDelay, spawnInterval);
     }
 
+    IEnumerator SpawnRandBallCoroutine()
+    {
+        yield return new WaitForSeconds(3f);
+
+        while (true)
+        {
+            SpawnRandomBall();
+
+            float randDelay = Random.Range(1.0f, 3.0f);
+
+            yield return new WaitForSeconds(randDelay);
+        }
+    }
+
     // Spawn random ball at random x position at top of play area
-    void SpawnRandomBall ()
+    void SpawnRandomBall()
     {
         // Generate random ball index and random spawn position
         Vector3 spawnPos = new Vector3(Random.Range(spawnLimitXLeft, spawnLimitXRight), spawnPosY, 0);
