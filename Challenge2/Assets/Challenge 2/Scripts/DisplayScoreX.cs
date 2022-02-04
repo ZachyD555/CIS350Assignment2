@@ -1,15 +1,10 @@
-﻿/*
- * Zach Daly
- * Assignment 3
- * Displays score for player
- */
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-// attach to a Text UI object
-public class DisplayScore : MonoBehaviour
+// Attach to Text UI object
+public class DisplayScoreX : MonoBehaviour
 {
     public Text textbox;
     public int score = 0;

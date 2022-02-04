@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerControllerX : MonoBehaviour
 {
     public GameObject dogPrefab;
+    public HealthSystemX healthSystem;
 
     // Update is called once per frame
     void Update()
@@ -13,9 +14,6 @@ public class PlayerControllerX : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Instantiate(dogPrefab, transform.position, dogPrefab.transform.rotation);
-
-            // Shoot delay
-            new WaitForSeconds(1f);
         }
     }
 }
