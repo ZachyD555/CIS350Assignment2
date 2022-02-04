@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* 
+ * Zach Daly
+ * Assignment 3
+ * Destroys gameobjects when they leave the screen
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

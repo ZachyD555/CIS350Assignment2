@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* 
+ * Zach Daly
+ * Assignment 3
+ * Controls the random spawnign of balls
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

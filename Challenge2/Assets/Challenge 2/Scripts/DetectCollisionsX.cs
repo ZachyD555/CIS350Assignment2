@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* 
+ * Zach Daly
+ * Assignment 3
+ * Detects when dogs hit balls to add score
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

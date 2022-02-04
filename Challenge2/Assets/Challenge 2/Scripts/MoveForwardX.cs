@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* 
+ * Zach Daly
+ * Assignment 3
+ * Controls the movement of the balls and dogs
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

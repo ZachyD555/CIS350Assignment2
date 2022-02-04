@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/* 
+ * Zach Daly
+ * Assignment 3
+ * Displays the current score the player has
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
