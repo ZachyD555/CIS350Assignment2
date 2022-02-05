@@ -545,6 +545,7 @@ MonoBehaviour:
   dogPrefab: {fileID: 8241448880393145375, guid: 3e5fe95e580114a5f8f8348678e77463,
     type: 3}
   healthSystem: {fileID: 0}
+  fireRate: 0.75
 --- !u!4 &355618745
 Transform:
   m_ObjectHideFlags: 0
@@ -672,8 +673,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -74.1, y: 96.5}
-  m_SizeDelta: {x: 590.0316, y: 87.06238}
+  m_AnchoredPosition: {x: -289.52, y: 130.85}
+  m_SizeDelta: {x: 159.12122, y: 32.041275}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &485776605
 MonoBehaviour:
@@ -1604,7 +1605,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -276.2, y: 92}
+  m_AnchoredPosition: {x: 295.8, y: 121.7}
   m_SizeDelta: {x: -614.2433, y: -264.44873}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1143113561
@@ -1624,7 +1625,7 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 0
+  m_ChildAlignment: 2
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
